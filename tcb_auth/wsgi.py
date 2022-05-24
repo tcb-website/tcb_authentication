@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_auth.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tcb_auth.settings')
 
 application = get_wsgi_application()

@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'first_auth.urls'
+ROOT_URLCONF = 'tcb_auth.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'first_auth.wsgi.application'
+WSGI_APPLICATION = 'tcb_auth.wsgi.application'
 
 
 # Database
