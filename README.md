@@ -1,1 +1,1 @@
-# tcb_authentication
+# django-authentication
